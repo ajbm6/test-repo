@@ -12,5 +12,5 @@ php:
   - hhvm
 
 script:
-  - composer global require phpunit/phpunit --no-update -n
-  - composer global update -n
+  - composer require phpunit/phpunit --no-update -n
+  - composer update -n
