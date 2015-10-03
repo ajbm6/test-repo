@@ -12,5 +12,4 @@ php:
   - hhvm
 
 script:
-  - composer require phpunit/phpunit --no-update -n
-  - composer update -n
+  - composer require phpunit/phpunit -n
