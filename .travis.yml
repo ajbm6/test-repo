@@ -12,4 +12,4 @@ php:
   - hhvm
 
 script:
-  - composer require phpunit/phpunit -n
+  - composer require 'phpunit/phpunit:@stable' -n
